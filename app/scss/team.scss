@@ -1,0 +1,44 @@
+@import 'general';
+
+#team {
+    
+    .team-member {
+        
+        figure {
+            margin: 0;
+        
+            img {
+                border-radius: 50%;
+            }
+        
+        }
+    
+    }
+    
+    p:last-child {
+        margin: 50px 0 50px 0;
+    }
+
+}
+
+.social-media {
+    
+    a {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #000;
+        border: 1px solid #000;
+        border-radius: 50%;
+        transition: all 0.4s;
+        color: #FFF;
+        text-align: center;
+    }
+    
+    a:hover {
+        background-color: rgb(14, 216, 214);
+        border: 1px solid rgb(14, 216, 214);
+    }
+    
+}

@@ -1,0 +1,11 @@
+$base-color: white;
+
+@font-face {
+    font-family: DroidSerifItalic;
+    src: url('../fonts/DroidSerif-italic.ttf');
+    font-style: italic;
+}
+
+section {
+    padding: 60px 0;
+}

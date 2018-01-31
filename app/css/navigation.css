@@ -1,0 +1,25 @@
+@font-face {
+  font-family: DroidSerifItalic;
+  src: url("../fonts/DroidSerif-italic.ttf");
+  font-style: italic; }
+
+section {
+  padding: 60px 0; }
+
+#main-nav {
+  background-color: transparent;
+  transition: all 0.4s; }
+  #main-nav .bgcolor {
+    background-color: rgba(14, 216, 214, 0.75); }
+  #main-nav .navbar-brand {
+    font-family: DroidSerifItalic;
+    font-size: 30px; }
+  #main-nav a {
+    color: white; }
+  #main-nav .nav-link {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700; }
+  #main-nav .navbar-collapse {
+    justify-content: flex-end; }

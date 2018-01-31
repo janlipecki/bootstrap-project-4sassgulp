@@ -1,0 +1,56 @@
+@font-face {
+  font-family: DroidSerifItalic;
+  src: url("../fonts/DroidSerif-italic.ttf");
+  font-style: italic; }
+
+section {
+  padding: 60px 0; }
+
+#portfolio {
+  background-color: #F7F7F7; }
+  #portfolio h2 {
+    text-transform: uppercase; }
+  #portfolio .portfolio-item {
+    background-color: #FFF; }
+    #portfolio .portfolio-item .overflow {
+      height: 300px;
+      overflow: hidden; }
+    #portfolio .portfolio-item .background {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      transition: all 0.4s; }
+      #portfolio .portfolio-item .background .mask {
+        background-color: rgba(14, 216, 214, 0.75);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: all 0.4s; }
+        #portfolio .portfolio-item .background .mask .fa {
+          color: #FFF;
+          font-size: 40px; }
+      #portfolio .portfolio-item .background .mask:hover {
+        opacity: 1; }
+    #portfolio .portfolio-item .background:hover {
+      transform: scale(1.2); }
+
+#portoflio-item-image-1 {
+  background-image: url("../img/portfolio/chestnut_on_bracket.jpg"); }
+
+#portoflio-item-image-2 {
+  background-image: url("../img/portfolio/typing_on_laptop.jpg"); }
+
+#portoflio-item-image-3 {
+  background-image: url("../img/portfolio/child_with_blue_paint.jpg"); }
+
+#portoflio-item-image-4 {
+  background-image: url("../img/portfolio/chaotic_paint.jpg"); }
+
+#portoflio-item-image-5 {
+  background-image: url("../img/portfolio/house_with_blue_doors.jpg"); }
+
+#portoflio-item-image-6 {
+  background-image: url("../img/portfolio/box_of_cookies.jpg"); }

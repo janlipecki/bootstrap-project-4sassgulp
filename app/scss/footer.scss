@@ -1,0 +1,28 @@
+@import 'general';
+
+#footer {
+    position: relative;
+    
+    p {
+        position: relative;
+        top: 50%;
+        transform: translate(0,-25%);
+    }
+    
+    a {
+        position: relative;
+        transform: translate(0, 25%);
+    }
+    
+    ul {
+        li {
+        position: relative;
+        top: 50%;
+        transform: translate(0,50%);
+        display: inline-block;
+        margin: 10px 0 10px 0;
+        }
+        
+    } 
+    
+}

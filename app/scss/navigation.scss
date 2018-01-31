@@ -1,0 +1,31 @@
+@import 'general';
+
+#main-nav {
+    background-color: transparent;
+    transition: all 0.4s;
+    
+    .bgcolor {
+        background-color: rgba(14, 216, 214, 0.75);
+    }
+    
+    .navbar-brand {
+        font-family: DroidSerifItalic;
+        font-size: 30px;
+    }
+    
+    a {
+        color: $base-color;
+    }
+    
+    .nav-link {
+        font-family: Montserrat, sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    
+    .navbar-collapse {
+        justify-content: flex-end;
+    }
+    
+}
