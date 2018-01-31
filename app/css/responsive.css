@@ -1,0 +1,21 @@
+@media all and (min-width: 1171px) {
+
+}
+
+/*TABLETY ITP.*/
+@media all and (min-width: 992px) and (max-width: 1171px) {
+
+}
+
+/*SMARTFONY ITP.*/
+@media all and (max-width: 992px) {
+    #team img {
+        width: 80%;
+        height: 80%;
+    }
+    
+    #footer ul {
+        margin: 0 auto;
+        padding: 0;
+    }
+}

@@ -1,23 +1,36 @@
 @font-face {
-  font-family: DroidSerifItalic;
-  src: url("../fonts/DroidSerif-italic.ttf");
-  font-style: italic; }
+    font-family: DroidSerifItalic;
+    src: url("../fonts/DroidSerif-italic.ttf");
+    font-style: italic;
+}
 
 section {
-  padding: 60px 0; }
+    padding: 60px 0;
+}
 
 #footer {
-  position: relative; }
-  #footer p {
+    position: relative;
+}
+
+#footer p {
     position: relative;
     top: 50%;
-    transform: translate(0, -25%); }
-  #footer a {
+    transform: translate(0, -25%);
+}
+
+#footer a {
     position: relative;
-    transform: translate(0, 25%); }
-  #footer ul li {
+    transform: translate(0, 25%);
+}
+
+#footer ul {
+    padding: 0;
+}
+
+#footer ul li {
     position: relative;
     top: 50%;
     transform: translate(0, 50%);
     display: inline-block;
-    margin: 10px 0 10px 0; }
+    margin: 10px 0 10px 0;
+}

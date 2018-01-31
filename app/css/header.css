@@ -1,33 +1,46 @@
 @font-face {
-  font-family: DroidSerifItalic;
-  src: url("../fonts/DroidSerif-italic.ttf");
-  font-style: italic; }
+    font-family: DroidSerifItalic;
+    src: url("../fonts/DroidSerif-italic.ttf");
+    font-style: italic;
+}
 
 section {
-  padding: 60px 0; }
+    padding: 60px 0;
+}
 
 #main-header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/pictures_on_the_wall.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
-  #main-header .header-inner {
-    color: white; }
-    #main-header .header-inner h2 {
-      font-family: DroidSerifItalic, sans-serif;
-      font-size: 40px; }
-    #main-header .header-inner h1 {
-      font-family: Montserrat, sans-serif;
-      font-weight: 700;
-      font-size: 60px; }
-    #main-header .header-inner button {
-      background-color: #0ED8D6;
-      color: #FFF;
-      transition: all 0.4s; }
-    #main-header .header-inner button:hover {
-      background-color: #FFF;
-      color: #0ED8D6; }
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header/pictures_on_the_wall.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header .header-inner {
+    color: white;
+}
+
+#main-header .header-inner h2 {
+    font-family: DroidSerifItalic, sans-serif;
+    font-size: 40px;
+}
+
+#main-header .header-inner h1 {
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+#main-header .header-inner button {
+    background-color: #0ED8D6;
+    color: #FFF;
+    transition: all 0.4s;
+}
+
+#main-header .header-inner button:hover {
+    background-color: #FFF;
+    color: #0ED8D6;
+}

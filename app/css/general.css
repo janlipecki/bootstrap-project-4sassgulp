@@ -1,7 +1,9 @@
 @font-face {
-  font-family: DroidSerifItalic;
-  src: url("../fonts/DroidSerif-italic.ttf");
-  font-style: italic; }
+    font-family: DroidSerifItalic;
+    src: url("../fonts/DroidSerif-italic.ttf");
+    font-style: italic;
+}
 
 section {
-  padding: 60px 0; }
+    padding: 60px 0;
+}
